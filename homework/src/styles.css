@@ -1,0 +1,116 @@
+:root {
+  --homepage-text: center;
+  --homepage-font: Arial, Helvetica, sans-serif;
+  --main-color: #6b63ff;
+  --boxes-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  --column-color: #f5f2fe;
+}
+body {
+  margin: 40px auto;
+}
+h1 {
+  text-align: var(--homepage-text);
+  font-family: var(--homepage-font);
+  font-size: 96px !important;
+}
+h2 {
+  text-align: var(--homepage-text);
+  font-family: var(--homepage-font);
+  padding: 20px;
+}
+h3 {
+  font-family: var(--homepage-font);
+  text-align: var(--homepage-text);
+  font-size: 24px !important;
+  color: grey;
+}
+p {
+  text-align: var(--homepage-text);
+  font-family: var(--homepage-font);
+  font-size: 16px;
+  padding: 20px;
+}
+.about-button {
+  background: white;
+  color: var(--main-color);
+  border: solid var(--main-color) 1px;
+  box-shadow: var(--boxes-shadow);
+}
+.about-me-text p {
+  margin: 10px;
+  font-size: 16px;
+  text-align: left;
+  border-radius: 4px;
+}
+.about-me-text {
+  display: flex;
+  margin: 0 25px 0;
+}
+.col-md-6 {
+  padding: 15px;
+}
+.col-md-4 {
+  flex: 0 0 auto;
+  width: 33.3333333333%;
+  padding: 10px;
+}
+.contact-button {
+  background: var(--main-color);
+  color: white;
+  box-shadow: var(--boxes-shadow);
+}
+.email-contact {
+  display: flex;
+  justify-content: center;
+  color: var(--main-color);
+  font-size: 24px;
+  text-decoration: none;
+  font-family: var(--homepage-font);
+}
+.img-fluid {
+  max-width: 70%;
+  height: auto;
+  background-color: var(--column-color);
+}
+.mb-3 {
+  text-align: left;
+}
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.navigation-buttons a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+.p-2 {
+  max-width: 90%;
+  padding: 8px;
+  background-color: var(--column-color);
+}
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--main-color);
+  box-shadow: var(--boxes-shadow);
+  color: white;
+}
+.return-link {
+  text-align: var(--homepage-text);
+  font-family: var(--homepage-font);
+  display: block;
+}
+.rounded {
+  border-radius: 5px !important;
+}
+.row {
+  margin: 0 20px 0 20px !important;
+}
+.shadow {
+  box-shadow: var(--boxes-shadow);
+}
